@@ -22,7 +22,14 @@ void initialiser(int** p_mat, int lignes, int colonnes){
 }
 
 void afficher(int** p_matrice, int lignes, int colonnes){
-
+    for(int i=0; i<colonnes;i++){
+        printf("=======================================\n");
+        for(int j=0;j<lignes;j++){
+            printf("| x ");
+        }
+        printf("\n");
+    }
+    printf("=======================================\n");
 
 }
 
@@ -68,6 +75,7 @@ int etat(int** p_mat, int nb_voisins, int y, int x){
         return 0;
     }
 }
+
 
 void copieMatrice(int** p_mat1, int** p_mat2, int lignes, int colonnes){   //la matrice 2 prends la valeur de la 1
     for (int i=0;i<lignes;i++){
