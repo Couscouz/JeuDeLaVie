@@ -1,0 +1,6 @@
+V1.0 : Version demandée par la prof
+
+
+V2.0 : Version améliorée :
+  -choix des couleurs pour les cellules mortes et vivantes
+  -choix du motif via un menu et non une entrée
