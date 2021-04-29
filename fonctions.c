@@ -52,6 +52,8 @@ void afficher(int** p_matrice, int lignes, int colonnes){
     printf("\n");
 }
 
+
+
 int voisinsFinie(int** p_mat, int ligne,int colonne){
     int cpt = 0;
     for(int i=ligne-1;i<ligne+2;i++){
