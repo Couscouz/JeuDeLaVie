@@ -6,9 +6,10 @@
 
 int main{}{
 
-    int lignes = 20;
-    int colonnes = 20;   
-    int torique;   //matrice torique ou non
+    int lignes, colonnes;
+
+    int tours, torique;  //matrice torique ou non
+
     int voisins;
 
     int** p_matrice;
@@ -16,6 +17,18 @@ int main{}{
 
     p_matrice = allouer(lignes, colonnes);
     p_temp = allouer(lignes, colonnes);
+
+    initialiser(p_matrice, lignes, colonnes); //avec des 0
+    initialiser(p_temp, lignes, colonnes);
+
+
+    lire(lignes, colonnes, tours, torique, p_matrice);
+
+    printf("Il y a %d lignes et %d colonnes.\nIl y a %d tours et la matrice est torique=%d\n", lignes, colonnes, tours, torique);
+    
+    afficher(p_matrice, lignes, colonnes);
+
+    return 0;
 
     //initialiser p_temp avec des 0
 
