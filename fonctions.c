@@ -1,7 +1,10 @@
 #include "fonctions.h"
+#include <stdio.h>
+#include <stdlib.h>
 
 
-
+/* Check */
+/* Fonction permettant d'allouer de la mémoire à la matrice */
 int** allouer(int lignes, int colonnes){
     int** p_tab;
     p_tab = malloc(lignes *sizeof(int*));
@@ -11,7 +14,8 @@ int** allouer(int lignes, int colonnes){
     return p_tab;
 }
 
-
+/* Check */
+/* Procédure permettant d'initialiser les valeurs de la matrice */
 void initialiser(int** p_mat, int lignes, int colonnes){
     for(int i=0;i<lignes;i++){
         for(int j=0;jwcolonnes;j++){
@@ -21,16 +25,31 @@ void initialiser(int** p_mat, int lignes, int colonnes){
 
 }
 
+/* Check */
+/* Procédure permettant d'afficher le matrice */
 void afficher(int** p_matrice, int lignes, int colonnes){
-    for(int i=0; i<colonnes;i++){
-        printf("=======================================\n");
-        for(int j=0;j<lignes;j++){
-            printf("| x ");
+    printf("\n");
+    for(int i=0; i<lignes; i++) {
+        printf("===");
+    }
+    printf("\n");
+    for(int i=0; i < lignes; i++) {
+        for(int j=0; j < colonnes; j++) {
+            printf("|");
+            if(p_matrice[i][j] == 1) {
+                printf("\033[104m  \033[0m");
+            }
+            else {
+                printf("  ");
+            }
         }
         printf("\n");
-    }
-    printf("=======================================\n");
 
+    }
+    for(int i=0; i<lignes; i++) {
+        printf("===");
+    }
+    printf("\n");
 }
 
 int voisinsFinie(int** p_mat, int ligne,int colonne){
