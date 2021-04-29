@@ -25,6 +25,25 @@ void initialiser(int** p_mat, int lignes, int colonnes){
 
 }
 
+
+void lire(int lignes, int colonnes, int tours, int torique, int** p_mat){
+    scanf("%d",&lignes);
+
+    scanf("%d",&colonnes);
+
+    for(int i=0;i<lignes;i++){
+        for( int j=0;j<colonnes;j++){
+            scanf("%d",&p_mat[i][j]);
+        }
+    }  
+
+    scanf("%d",&tours);
+
+    scanf("%d",&torique);  
+}
+
+
+
 /* Check */
 /* Procédure permettant d'afficher le matrice */
 void afficher(int** p_matrice, int lignes, int colonnes){
