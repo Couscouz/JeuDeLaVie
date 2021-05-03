@@ -53,40 +53,48 @@ void afficher(int** p_matrice, int lignes, int colonnes){
 }
 
 
-int voisinsFinie(int** p_mat, int ligne,int colonne){
+int voisins(int** p_mat, int ligne,int colonne, int lignes, int colonnes, int torique){
     int cpt = 0;
-    for(int i=ligne-1;i<ligne+2;i++){
-        for(int j=colonne-1;j<colonne+2;j++){
-            if (p_mat[i][j] == 1){
-                cpt += 1;
+
+    if (!torique){   //matrice finie
+       
+        for(int i=ligne-1;i<ligne+2;i++){
+            for(int j=colonne-1;j<colonne+2;j++){
+                if (p_mat[i][j] == 1){
+                    cpt += 1;
+                }
             }
         }
+        
     }
-    return cpt;
-}
+    else{
+        int x,y;
+        for(int i=ligne-1;i<ligne+2;i++){
+            x = i;
+            if (i == lignes){x = i-lignes-1;}   
+            if (i == -1){x = lignes-1;}
 
-int voisinsTorique(int** p_mat, int y,int x, int lignes, int colonnes){
-    int cpt = 0;
-    for(int i=y-1;i<y+2;i++){
-        if (i == lignes){i = i-lignes-1;}
+            for(int j=colonne-1;j<colonne+2;j++){
+                y = j;
+                if (j == colonnes){y = j-colonnes-1;}
+                if (j == -1){y = colonnes-1;}
 
-        for(int j=x-1;j<x+2;j++){
-            if (j == colonnes){j = j-colonnes-1;}
-
-            if (p_mat[i][j] == 1){
-                cpt += 1;
+                if (p_mat[x][y] == 1){
+                    cpt += 1;
+                }
             }
         }
+        
     }
-    return cpt;
+    return cpt; //retourne le nombre de cellules voisines vivantes
 }
 
 
 
 
 
-int etat(int** p_mat, int nb_voisins, int y, int x){    
-    int cel = p_mat[y][x];
+int etat(int** p_mat, int nb_voisins, int x, int y){    
+    int cel = p_mat[x][y];
 
     if ((nb_voisins == 3 && cel == 0) || (nb_voisins == 2 || nb_voisins == 3)){ //naissance ou survie
         return 1;
