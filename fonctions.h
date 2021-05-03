@@ -23,11 +23,6 @@ int** allouer(int taille);
 void initialiser(int** p_matrice, int lignes, int colonnes);
 
 
-
-void lire(int lignes, int colonnes, int tours, int torique, int** p_mat);
-
-
-
 /*-----------------------------------------------------------------*/
 /* Name : afficher                                                 */
 /* Auteur : Léo Portet                                             */
