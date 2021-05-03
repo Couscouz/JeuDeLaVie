@@ -26,48 +26,25 @@ void initialiser(int** p_mat, int lignes, int colonnes){
 }
 
 
-void lire(int lignes, int colonnes, int tours, int torique, int** p_mat){
-    scanf("%d",&lignes);
-
-    scanf("%d",&colonnes);
-
-    for(int i=0;i<lignes;i++){
-        for( int j=0;j<colonnes;j++){
-            scanf("%d",&p_mat[i][j]);
-        }
-    }  
-
-    scanf("%d",&tours);
-
-    scanf("%d",&torique);  
-}
-
-
-
 /* Check */
 /* Procédure permettant d'afficher le matrice */
 void afficher(int** p_matrice, int lignes, int colonnes){
     printf("\n");
-    for(int i=0; i<lignes; i++) {
-        printf("===");
-    }
-    printf("\n");
     for(int i=0; i < lignes; i++) {
+        printf("========================================\n");
         for(int j=0; j < colonnes; j++) {
             printf("|");
             if(p_matrice[i][j] == 1) {
                 printf("\033[104m  \033[0m");
             }
             else {
-                printf("  ");
+                printf("\033[101m  \033[0m");
             }
         }
         printf("\n");
 
     }
-    for(int i=0; i<lignes; i++) {
-        printf("===");
-    }
+    printf("========================================\n");
     printf("\n");
 }
 
