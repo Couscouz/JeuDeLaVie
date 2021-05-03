@@ -25,29 +25,32 @@ void initialiser(int** p_mat, int lignes, int colonnes){
 
 }
 
-
 /* Check */
 /* Procédure permettant d'afficher le matrice */
 void afficher(int** p_matrice, int lignes, int colonnes){
     printf("\n");
+    for(int i=0; i<lignes; i++) {
+        printf("===");
+    }
+    printf("\n");
     for(int i=0; i < lignes; i++) {
-        printf("========================================\n");
         for(int j=0; j < colonnes; j++) {
             printf("|");
             if(p_matrice[i][j] == 1) {
                 printf("\033[104m  \033[0m");
             }
             else {
-                printf("\033[101m  \033[0m");
+                printf("\033[99m  \033[0m");
             }
         }
         printf("\n");
 
     }
-    printf("========================================\n");
+    for(int i=0; i<lignes; i++) {
+        printf("===");
+    }
     printf("\n");
 }
-
 
 
 int voisinsFinie(int** p_mat, int ligne,int colonne){
