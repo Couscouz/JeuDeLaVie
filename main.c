@@ -1,5 +1,6 @@
 #include <stdlib>
 #include <stdio.h>
+#include <unistd.h>
 #include "fonctions.h"
     
 int main() {
