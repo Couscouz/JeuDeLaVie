@@ -43,18 +43,9 @@ void afficher(int** p_matrice, int lignes, int colonnes);
 /* Créée le : */
 /* Description : */
 /*-------------------------------------*/
-int voisinsFinie(int** p_mat, int ligne,int colonne);
+int voisins(int** p_mat, int ligne,int colonne, int lignes, int colonnes, int torique);
 
-  
-  /*-------------------------------------*/
-/* Name :  */
-/* Auteur :  */ 
-/* Créée le : */
-/* Description : */
-/*-------------------------------------*/
-int voisinsTorique(int** p_mat, int y,int x, int lignes, int colonnes);
-
-
+ 
 /*-------------------------------------*/
 /* Name :  */
 /* Auteur :  */ 
