@@ -77,13 +77,13 @@ int voisins(int** p_mat, int ligne,int colonne, int lignes, int colonnes, int to
     else{
         for(int i=ligne-1;i<ligne+2;i++){
             x = i;
-            if (i == lignes){x = i-lignes-1;}   
-            if (i < 0){x = lignes-1;}
+            if (i >= lignes){x = i-lignes;}   
+            if (i < 0){x = lignes+i;}
 
             for(int j=colonne-1;j<colonne+2;j++){
                 y = j;
-                if (j >= colonnes){y = j-colonnes-1;}
-                if (j < 0){y = colonnes-i;}
+                if (j >= colonnes){y = j-colonnes;}
+                if (j < 0){y = colonnes+i;}
 
                 if (p_mat[x][y] == 1){
                     cpt += 1;
