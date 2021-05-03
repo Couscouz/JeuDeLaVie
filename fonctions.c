@@ -8,7 +8,7 @@
 int** allouer(int lignes, int colonnes){
     int** p_tab;
     p_tab = malloc(lignes *sizeof(int*));
-    for(int i=0;i<lignes;i++){
+    for(int i=0; i < lignes; i++){
         p_tab[i] = malloc(colonnes *sizeof(int));
     }
     return p_tab;
@@ -17,8 +17,8 @@ int** allouer(int lignes, int colonnes){
 /* Check */
 /* Procédure permettant d'initialiser les valeurs de la matrice */
 void initialiser(int** p_mat, int lignes, int colonnes){
-    for(int i=0;i<lignes;i++){
-        for(int j=0;jwcolonnes;j++){
+    for(int i=0; i < lignes; i++){
+        for(int j=0; j < colonnes; j++){
             p_mat[i][j] = 0;
         }
     }
