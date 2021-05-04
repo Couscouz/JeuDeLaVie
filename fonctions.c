@@ -77,17 +77,19 @@ int voisins(int** p_mat, int ligne,int colonne, int lignes, int colonnes, int to
                         cpt += p_mat[i][j];
                     }
                     else{
+                        x=i;
+                        y=j;
                         if (i==lignes){x=0;}
-                        if (i==-1){x=lignes-1;}
+                        if (i==-1){x=lignes;}
 
                         if (j==colonnes){y=0;}
-                        if (j==-1){y=colonnes-1;}
+                        if (j==-1){y=colonnes;}
 
                         cpt += p_mat[x][y];
                     }
+                }
             }
         }
-        
     }
     return cpt; //retourne le nombre de cellules voisines vivantes
 }
