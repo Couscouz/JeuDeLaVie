@@ -53,10 +53,11 @@ void afficher(int** p_matrice, int lignes, int colonnes){
 }
 
 
+/* Check */
+/* Fonction qui permet de savoir le nombre de voisins de pour chaque cellule */ 
 int voisins(int** p_mat, int ligne,int colonne, int lignes, int colonnes, int torique){
     int cpt = 0;
     
-
     if (!torique){   //matrice finie
        
         for(int i=ligne-1;i<ligne+2;i++){
@@ -96,20 +97,22 @@ int voisins(int** p_mat, int ligne,int colonne, int lignes, int colonnes, int to
 
 
 
-
-
+/* Check */
+/* Fonction qui permet de changer ou non l'état d'une cellule */
 int etat(int** p_mat, int nb_voisins, int x, int y){    
     int cel = p_mat[x][y];
-
-    if ((nb_voisins == 3 && cel == 0) || (nb_voisins == 2 || nb_voisins == 3)){ //naissance ou survie
+    if ((nb_voisins == 3 && cel == 0) ^ ((nb_voisins == 2 || nb_voisins == 3) && cel == 1)){ //naissance ou survie
+        /*Naissance de cellule*/
         return 1;
     }
     else{
+        /*Mort d'une cellule*/
         return 0;
     }
 }
 
-
+/* Check */
+/* Procédure permettant de modifier la matrice grâce une matrice temporaire */
 void copieMatrice(int** p_mat1, int** p_mat2, int lignes, int colonnes){   //la matrice 2 prends la valeur de la 1
     for (int i=0;i<lignes;i++){
         for (int j=0;j<colonnes;j++){
