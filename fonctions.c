@@ -55,26 +55,21 @@ void afficher(int** p_matrice, int lignes, int colonnes){
 
 int voisins(int** p_mat, int ligne,int colonne, int lignes, int colonnes, int torique){
     int cpt = 0;
-    int x,y ;
+    
 
     if (!torique){   //matrice finie
        
         for(int i=ligne-1;i<ligne+2;i++){
-            x = i;
-            if (i<0) {x=0;}
-            if (i>=ligne) {x=ligne-1;}
             for(int j=colonne-1;j<colonne+2;j++){
-                y = j;
-                if (j<0) {y=0;}
-                if (j>=ligne) {y=colonnes-1;}
-                if (p_mat[x][y] == 1){
-                    cpt += 1;
+                if (0<=i && i<lignes && 0<=j && j<colonnes){
+                    cpt += p_mat[i][j];
                 }
             }
         }
         
     }
     else{
+        int x,y;
         for(int i=ligne-1;i<ligne+2;i++){
             x = i;
             if (i >= lignes){x = i-lignes;}   
