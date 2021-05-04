@@ -61,7 +61,7 @@ int voisins(int** p_mat, int ligne,int colonne, int lignes, int colonnes, int to
        
         for(int i=ligne-1;i<ligne+2;i++){
             for(int j=colonne-1;j<colonne+2;j++){
-                if (0<=i && i<lignes && 0<=j && j<colonnes){
+                if ((0<=i && i<lignes && 0<=j && j<colonnes) && (i!=ligne || j!=colonne)){
                     cpt += p_mat[i][j];
                 }
             }
