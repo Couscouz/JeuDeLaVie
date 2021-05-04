@@ -33,28 +33,28 @@ void afficher(int** p_matrice, int lignes, int colonnes);
 
 
 /*-------------------------------------*/
-/* Name :  */
-/* Auteur :  */ 
-/* Créée le : */
-/* Description : */
+/* Name :  voisins*/
+/* Auteur :  Rémi Couzi & Léo Portet */
+/* Créée le : 4/05/2021 */
+/* Description : Fonction qui permet de savoir le nombre de voisins de pour chaque cellule */
 /*-------------------------------------*/
 int voisins(int** p_mat, int ligne,int colonne, int lignes, int colonnes, int torique);
 
  
 /*-------------------------------------*/
-/* Name :  */
-/* Auteur :  */ 
-/* Créée le : */
-/* Description : */
+/* Name :  etat */
+/* Auteur : Rémi Couzi & Léo Portet */
+/* Créée le : 03/05/2021 */
+/* Description : Fonction qui permet de changer ou non l'état d'une cellule */
 /*-------------------------------------*/
 int etat(int** p_mat, int nb_voisins, int y, int x);
 
 
 /*-------------------------------------*/
-/* Name :  */
+/* Name :  copieMatrice */
 /* Auteur :  */ 
 /* Créée le : */
-/* Description : */
+/* Description : Procédure permettant de modifier la matrice grâce une matrice temporaire */
 /*-------------------------------------*/
 void copieMatrice(int** p_mat1, int** p_mat2, int lignes, int colonnes);
 
