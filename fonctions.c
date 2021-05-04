@@ -61,7 +61,7 @@ int voisins(int** p_mat, int ligne,int colonne, int lignes, int colonnes, int to
        
         for(int i=ligne-1;i<ligne+2;i++){
             for(int j=colonne-1;j<colonne+2;j++){
-                if ((0<=i && i<lignes && 0<=j && j<colonnes) && (i!=ligne || j!=colonne)){
+                if (0<=i && i<lignes && 0<=j && j<colonnes && (i!=ligne || j!=colonne)){
                     cpt += p_mat[i][j];
                 }
             }
@@ -71,18 +71,20 @@ int voisins(int** p_mat, int ligne,int colonne, int lignes, int colonnes, int to
     else{
         int x,y;
         for(int i=ligne-1;i<ligne+2;i++){
-            x = i;
-            if (i >= lignes){x = i-lignes;}   
-            if (i < 0){x = lignes+i;}
-
             for(int j=colonne-1;j<colonne+2;j++){
-                y = j;
-                if (j >= colonnes){y = j-colonnes;}
-                if (j < 0){y = colonnes+i;}
+                if (i!=ligne || j!=colonne){
+                    if (0<=i && i<lignes && 0<=j && j<colonnes){
+                        cpt += p_mat[i][j];
+                    }
+                    else{
+                        if (i==lignes){x=0;}
+                        if (i==-1){x=lignes;}
 
-                if (p_mat[x][y] == 1){
-                    cpt += 1;
-                }
+                        if (j==colonnes){y=0;}
+                        if (j==-1){y=colonnes;}
+
+                        cpt += p_mat[x][y];
+                    }
             }
         }
         
