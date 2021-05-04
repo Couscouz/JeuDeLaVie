@@ -80,10 +80,10 @@ int voisins(int** p_mat, int ligne,int colonne, int lignes, int colonnes, int to
                         x=i;
                         y=j;
                         if (i==lignes){x=0;}
-                        if (i==-1){x=lignes;}
+                        if (i==-1){x=lignes-1;}
 
                         if (j==colonnes){y=0;}
-                        if (j==-1){y=colonnes;}
+                        if (j==-1){y=colonnes-1;}
 
                         cpt += p_mat[x][y];
                     }
