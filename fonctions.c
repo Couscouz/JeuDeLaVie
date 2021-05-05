@@ -29,7 +29,7 @@ void initialiser(int** p_mat, int lignes, int colonnes){
 /* Procédure permettant d'afficher le matrice */
 void afficher(int** p_matrice, int lignes, int colonnes){
     printf("\n");
-    for(int i=0; i<lignes; i++) {
+    for(int i=0; i<colonnes; i++) {
         printf("=  ");
     }
     /*---------------------Boucle d'affichage-------------------*/
@@ -48,7 +48,7 @@ void afficher(int** p_matrice, int lignes, int colonnes){
 
     }
     /*---------------------------------------------------------*/
-    for(int i=0; i<lignes; i++) {
+    for(int i=0; i<colonnes; i++) {
         printf("=  ");
     }
     printf("\n");
