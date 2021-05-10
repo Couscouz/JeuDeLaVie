@@ -11,7 +11,7 @@
 /* Créée le : 27/04/2021                                     */
 /* Description : Fonction permettant d'allouer de la mémoire */
 /*-----------------------------------------------------------*/
-int** allouer(int taille);
+int** allouer(int lignes, int colonnes);
 
 
 /*----------------------------------------------------------------------------*/
