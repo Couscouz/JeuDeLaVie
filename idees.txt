@@ -3,5 +3,12 @@ V1.0 : Version demandée par la prof
 
 V2.0 : Version améliorée :
   -choix des couleurs pour les cellules mortes et vivantes
-  -choix du motif via un menu et non une entrée
-  -choix parmis 3 vitesses
+  
+  fonctionnement : 
+        - choix motifs   (setup des couleurs automatique en fonction de l'image (nvidia et discord auront ddes couleurs par défaut par exemple)
+        -choix nombre de tours
+         -choix vitesse parmis 3
+         -choix torique/non torique
+         - lancement
+          une fois finis, on appuie sur une touche revenir au début du menu et clean l'affichage
+          
