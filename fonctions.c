@@ -22,7 +22,6 @@ void initialiser(int** p_mat, int lignes, int colonnes){
             p_mat[i][j] = 0;
         }
     }
-
 }
 
 /* Check */
@@ -62,34 +61,33 @@ int voisins(int** p_mat, int ligne,int colonne, int lignes, int colonnes, int to
     
     /*-------------------Si la matrice n'est pas Torique------------------*/
     if (!torique){   //matrice finie
-        for(int i=ligne-1;i<ligne+2;i++){
-            for(int j=colonne-1;j<colonne+2;j++){
-                if (0<=i && i<lignes && 0<=j && j<colonnes && (i!=ligne || j!=colonne)){
+        for(int i = ligne-1; i < ligne+2 ;i++){
+            for(int j = colonne-1; j < colonne+2; j++){
+                if (0 <= i && i < lignes && 0 <= j && j < colonnes && (i != ligne || j != colonne)){
                     cpt += p_mat[i][j];
                 }
             }
-        }
-        
+        }  
     }
     /*-------------------------------------------------------------------*/
     
     /*--------------------Si la matrice est Torique----------------------*/
     else{
         int x,y;
-        for(int i=ligne-1;i<ligne+2;i++){
-            for(int j=colonne-1;j<colonne+2;j++){
-                if (i!=ligne || j!=colonne){
-                    if (0<=i && i<lignes && 0<=j && j<colonnes){
+        for(int i = ligne-1; i < ligne+2; i++){
+            for(int j = colonne-1; j < colonne+2; j++){
+                if (i != ligne || j != colonne){
+                    if (0 <= i && i < lignes && 0 <= j && j < colonnes){
                         cpt += p_mat[i][j];
                     }
                     else{
-                        x=i;
-                        y=j;
-                        if (i==lignes){x=0;}
-                        if (i==-1){x=lignes-1;}
+                        x = i;
+                        y = j;
+                        if (i == lignes){x = 0;}
+                        if (i == -1){x = lignes-1;}
 
-                        if (j==colonnes){y=0;}
-                        if (j==-1){y=colonnes-1;}
+                        if (j == colonnes){y = 0;}
+                        if (j == -1){y = colonnes-1;}
 
                         cpt += p_mat[x][y];
                     }
@@ -123,15 +121,15 @@ int etat(int** p_mat, int nb_voisins, int x, int y){
 /* Check */
 /* Procédure permettant de modifier la matrice grâce une matrice temporaire */
 void copieMatrice(int** p_mat1, int** p_mat2, int lignes, int colonnes){   //la matrice 2 prends la valeur de la 1
-    for (int i=0;i<lignes;i++){
-        for (int j=0;j<colonnes;j++){
+    for (int i=0; i<lignes; i++){
+        for (int j=0; j<colonnes; j++){
             p_mat2[i][j] = p_mat1[i][j];
         }
     }
 }
 
 void liberer(int** p_mat, int lignes){ //liberation de mémoire
-    for(int i=0;i<lignes;i++){
+    for(int i=0; i<lignes; i++){
         free(p_mat[i]);
     }
     free(p_mat);
