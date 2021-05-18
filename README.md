@@ -1,6 +1,6 @@
 # Projet Algorithmique fin 1ere année CY-Tech
 
-# Le Jeu de la Vie
+## Le Jeu de la Vie
 
 Le Jeu de la Vie a été inventé par John Horton Conway en 1970. Ce n'est pas un jeu approprement parlé pusiqu'il ne nécessite aucun joueur.
 Mais c'est plutôt un automate cellulaire. Partant d'une organisation de différentes cellules de départ, celles-ci vont, au cours de l'exécution
@@ -14,7 +14,7 @@ Règle n°2 : une cellule meurt d'isolement si elle est entourée d'une seule ce
 
 Règles n°3 : une cellule prend vie si elle est entourée d'exactement 3 cellules voisines.
 
-# Utilisation
+## Utilisation
   
   Dans la console :
       - compiler le fichier fonctions.c et le fichier main.c en utilisant la commande 
