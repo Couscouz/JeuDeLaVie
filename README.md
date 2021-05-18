@@ -25,17 +25,18 @@ Dans la console :
       - ensuite utiliser la commande :  
       <pre><code>cat motifs/nomDuMotif.txt | ./exe</code></pre>  
       qui permet d'accéder au dossier motifs contenant tous les motifs de départ à savoir :    
-            &nbsp;&nbsp;&nbsp; * canon.txt  
-            * planeur.txt  
-            * clignotant.txt  
-            * grenouille.txt  
-            * boule.txt  
-            * illuminati.txt  
-            * github.txt  
-            * discord.txt  
-            * nvidia.txt  
-            * cy-tech.txt  
-            * vache.txt  
-            * mandala.txt  
-            * aireisti.txt  
+ 
+&nbsp;&nbsp;&nbsp;&nbsp; * canon.txt  
+&nbsp;&nbsp;&nbsp;&nbsp; * planeur.txt  
+&nbsp;&nbsp;&nbsp;&nbsp; * clignotant.txt  
+&nbsp;&nbsp;&nbsp;&nbsp; * grenouille.txt  
+&nbsp;&nbsp;&nbsp;&nbsp; * boule.txt  
+&nbsp;&nbsp;&nbsp;&nbsp; * illuminati.txt  
+&nbsp;&nbsp;&nbsp;&nbsp; * github.txt  
+&nbsp;&nbsp;&nbsp;&nbsp; * discord.txt  
+&nbsp;&nbsp;&nbsp;&nbsp; * nvidia.txt  
+&nbsp;&nbsp;&nbsp;&nbsp; * cy-tech.txt  
+&nbsp;&nbsp;&nbsp;&nbsp; * vache.txt  
+&nbsp;&nbsp;&nbsp;&nbsp; * mandala.txt  
+&nbsp;&nbsp;&nbsp;&nbsp; * aireisti.txt  
  
