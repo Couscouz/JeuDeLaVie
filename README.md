@@ -16,7 +16,7 @@ Règles n°3 : une cellule prend vie si elle est entourée d'exactement 3 cellul
 
 ## Utilisation
   
-  Dans la console :  
+  <ol>Dans la console :  
       <li>- compiler le fichier fonctions.c et le fichier main.c en utilisant la commande</li>    
       <li><li><pre><code>make clean</code></pre></li></li> 
       (pour être sur d'avoir toutes les modifications)  
@@ -37,3 +37,4 @@ Règles n°3 : une cellule prend vie si elle est entourée d'exactement 3 cellul
           * vache.txt  
           * mandala.txt  
           * aireisti.txt  
+  </ol>
