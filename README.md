@@ -41,6 +41,11 @@ qui permet d'accéder au dossier motifs contenant tous les motifs de départ à 
 ## A venir  
 
 Version 2 :  
-
- 
+- une interface graphique
+- un menu principale avec :  
+&nbsp;&nbsp;&nbsp;&nbsp; - choix du motifs  
+&nbsp;&nbsp;&nbsp;&nbsp; - choix des couleurs  
+&nbsp;&nbsp;&nbsp;&nbsp; - choix nombre de tours  
+&nbsp;&nbsp;&nbsp;&nbsp; - choix vitesse  
+&nbsp;&nbsp;&nbsp;&nbsp; - choix matrice torique ou non  
 
