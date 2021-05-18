@@ -17,8 +17,8 @@ Règles n°3 : une cellule prend vie si elle est entourée d'exactement 3 cellul
 # Utilisation
   
   Dans la console :
-      - compiler le fichier fonctions.c et le fichier main.c en utilisant la commande make clean (pour être sur d'avoir toutes les modifications)
-      puis la commande make
+      - compiler le fichier fonctions.c et le fichier main.c en utilisant la commande $ make clean (pour être sur d'avoir toutes les modifications)
+      puis la commande $ make
       - ensuite utiliser la commande cat motifs/nomDuMotif.txt | ./exe qui permet d'accéder au dossier motifs contenant tous les motifs de départ
       à savoir : 
           - canon.txt
