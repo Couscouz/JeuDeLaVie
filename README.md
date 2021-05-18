@@ -16,16 +16,15 @@ Règles n°3 : une cellule prend vie si elle est entourée d'exactement 3 cellul
 
 ## Utilisation
   
-Dans la console :  
-      - compiler le fichier fonctions.c et le fichier main.c en utilisant la commande :      
-      <pre><code>make clean</code></pre> 
-      (pour être sur d'avoir toutes les modifications),   
-      puis la commande :    
-      <pre><code>make</code></pre>  
-      - ensuite utiliser la commande :  
-      <pre><code>cat motifs/nomDuMotif.txt | ./exe</code></pre>  
-      qui permet d'accéder au dossier motifs contenant tous les motifs de départ à savoir :    
- 
+Dans la console :    
+- compiler le fichier fonctions.c et le fichier main.c en utilisant la commande :  
+<pre><code>make clean</code></pre>  
+(pour être sur d'avoir toutes les modifications), puis la commande :  
+<pre><code>make</code></pre>  
+- ensuite utiliser la commande :  
+<pre><code>cat motifs/nomDuMotif.txt | ./exe</code></pre>  
+qui permet d'accéder au dossier motifs contenant tous les motifs de départ à savoir :    
+
 &nbsp;&nbsp;&nbsp;&nbsp; * canon.txt  
 &nbsp;&nbsp;&nbsp;&nbsp; * planeur.txt  
 &nbsp;&nbsp;&nbsp;&nbsp; * clignotant.txt  
