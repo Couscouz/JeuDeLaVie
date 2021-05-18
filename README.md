@@ -23,7 +23,7 @@ Dans la console :
 <pre><code>make</code></pre>  
 - ensuite utiliser la commande :  
 <pre><code>cat motifs/nomDuMotif.txt | ./exe</code></pre>  
-qui permet d'accéder au dossier motifs contenant tous les motifs de départ à savoir :    
+qui permet d'accéder au dossier motifs contenant tous les motifs de départ à savoir :  
 
 &nbsp;&nbsp;&nbsp;&nbsp; * canon.txt  
 &nbsp;&nbsp;&nbsp;&nbsp; * planeur.txt  
