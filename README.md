@@ -24,16 +24,16 @@ Règles n°3 : une cellule prend vie si elle est entourée d'exactement 3 cellul
       $ make
       - ensuite utiliser la commande cat motifs/nomDuMotif.txt | ./exe qui permet d'accéder au dossier motifs contenant tous les motifs de départ
       à savoir : 
-          - canon.txt
-          - planeur.txt
-          - clignotant.txt
-          - grenouille.txt
-          - boule.txt
-          - illuminati.txt
-          - github.txt
-          - discord.txt
-          - nvidia.txt
-          - cy-tech.txt
-          - vache.txt
-          - mandala.txt
-          - aireisti.txt
+          * canon.txt
+          * planeur.txt
+          * clignotant.txt
+          * grenouille.txt
+          * boule.txt
+          * illuminati.txt
+          * github.txt
+          * discord.txt
+          * nvidia.txt
+          * cy-tech.txt
+          * vache.txt
+          * mandala.txt
+          * aireisti.txt
