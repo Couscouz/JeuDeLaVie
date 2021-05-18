@@ -18,7 +18,7 @@ Règles n°3 : une cellule prend vie si elle est entourée d'exactement 3 cellul
   
   Dans la console :  
       - compiler le fichier fonctions.c et le fichier main.c en utilisant la commande   
-      <br/>make clean  
+      <pre><code>make clean</code></pre> 
       (pour être sur d'avoir toutes les modifications)  
       puis la commande   
       $ make  
