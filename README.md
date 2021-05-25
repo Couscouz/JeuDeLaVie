@@ -37,6 +37,7 @@ qui permet d'accéder au dossier motifs contenant tous les motifs de départ à 
 &nbsp;&nbsp;&nbsp;&nbsp; - vache.txt  
 &nbsp;&nbsp;&nbsp;&nbsp; - mandala.txt  
 &nbsp;&nbsp;&nbsp;&nbsp; - aireisti.txt  
+&nbsp;&nbsp;&nbsp;&nbsp; - shrek.txt  
 
 ## A venir  
 
