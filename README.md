@@ -27,7 +27,8 @@ qui permet d'accéder au dossier motifs contenant tous les motifs de départ à 
 &nbsp;&nbsp;&nbsp;&nbsp; - canon.txt  
 &nbsp;&nbsp;&nbsp;&nbsp; - planeur.txt  
 &nbsp;&nbsp;&nbsp;&nbsp; - clignotant.txt  
-&nbsp;&nbsp;&nbsp;&nbsp; - grenouille.txt  
+&nbsp;&nbsp;&nbsp;&nbsp; - grenouille.txt
+&nbsp;&nbsp;&nbsp;&nbsp; - cerclefeu.txt
 &nbsp;&nbsp;&nbsp;&nbsp; - boule.txt  
 &nbsp;&nbsp;&nbsp;&nbsp; - illuminati.txt  
 &nbsp;&nbsp;&nbsp;&nbsp; - github.txt  
