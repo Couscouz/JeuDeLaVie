@@ -39,11 +39,12 @@ qui permet d'accéder au dossier motifs contenant tous les motifs de départ à 
 &nbsp;&nbsp;&nbsp;&nbsp; - mandala.txt  
 &nbsp;&nbsp;&nbsp;&nbsp; - aireisti.txt  
 &nbsp;&nbsp;&nbsp;&nbsp; - shrek.txt  
+&nbsp;&nbsp;&nbsp;&nbsp; - satan.txt  
 
 ## A venir  
 
 Version 2 :  
-- une interface graphique
+- une version un peu plus graphique
 - un menu principale avec :  
 &nbsp;&nbsp;&nbsp;&nbsp; - choix du motifs  
 &nbsp;&nbsp;&nbsp;&nbsp; - choix des couleurs  
