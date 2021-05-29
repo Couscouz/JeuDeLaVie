@@ -35,8 +35,7 @@ qui permet d'accéder au dossier motifs contenant tous les motifs de départ à 
 &nbsp;&nbsp;&nbsp;&nbsp; - discord.txt  
 &nbsp;&nbsp;&nbsp;&nbsp; - nvidia.txt  
 &nbsp;&nbsp;&nbsp;&nbsp; - cy-tech.txt  
-&nbsp;&nbsp;&nbsp;&nbsp; - vache.txt  
-&nbsp;&nbsp;&nbsp;&nbsp; - mandala.txt  
+&nbsp;&nbsp;&nbsp;&nbsp; - vache.txt   
 &nbsp;&nbsp;&nbsp;&nbsp; - aireisti.txt  
 &nbsp;&nbsp;&nbsp;&nbsp; - shrek.txt  
 &nbsp;&nbsp;&nbsp;&nbsp; - satan.txt  
