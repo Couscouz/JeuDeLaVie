@@ -9,7 +9,7 @@ Règle n°1 : une cellule reste en vie si elle est entourée de deux ou trois ce
 Règle n°2 : une cellule meurt d'isolement si elle est entourée d'une seule cellule voisine ou une cellule meurt si elle est entourée d'au moins 4 cellules voisines.
 
 Règles n°3 : une cellule prend vie si elle est entourée d'exactement 3 cellules voisines.
-------------------------------------------------------------------------------------
+
 ## Utilisation
 
 ### Compilation
