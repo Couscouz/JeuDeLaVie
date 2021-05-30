@@ -20,7 +20,7 @@ Dans la console, il faut compiler en utilisant la commande appropriée en foncti
 
 ### Exécution 
 
-Dans la console, accéder au dossier bin avec : cd bin
+Dans la console, accéder au dossier bin avec : cd bin  
 Puis lancer l'exécutable avec : ./prog
 
 ### Commandes pour la simulation
