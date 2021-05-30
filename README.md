@@ -42,6 +42,8 @@ qui permet d'accéder au dossier motifs contenant tous les motifs de départ à 
 &nbsp;&nbsp;&nbsp;&nbsp; - bateau.txt  
 &nbsp;&nbsp;&nbsp;&nbsp; - bipolaire.txt  
 
+puis qui permet d'exécuter le programme.
+
 ## A venir  
 
 Version 2 :  
