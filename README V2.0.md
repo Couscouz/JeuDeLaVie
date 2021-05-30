@@ -16,12 +16,12 @@ Règles n°3 : une cellule prend vie si elle est entourée d'exactement 3 cellul
 
 Dans la console, il faut compiler en utilisant la commande appropriée en fonction du système d'exploitation de la machine:
 * **Windows**: `gcc src/main.c -o bin/prog -I include -L lib -lmingw32 -lSDL2main -lSDL2 -lSDL2_ttf`
-* **Linux**: `gcc src/main.c -o bin/prog -lSDL2main -lSDL2 -lSDL2_ttf  
+* **Linux**: `gcc src/main.c -o bin/prog -lSDL2main -lSDL2 -lSDL2_ttf`  
 
 ### Exécution 
 
-Dans la console, accéder au dossier bin avec : cd bin  
-Puis lancer l'exécutable avec : ./prog
+Dans la console, accéder au dossier bin avec : `cd bin`  
+Puis lancer l'exécutable avec : `./prog`
 
 ### Commandes pour la simulation
 
