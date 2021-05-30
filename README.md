@@ -39,6 +39,8 @@ qui permet d'accéder au dossier motifs contenant tous les motifs de départ à 
 &nbsp;&nbsp;&nbsp;&nbsp; - aireisti.txt  
 &nbsp;&nbsp;&nbsp;&nbsp; - shrek.txt  
 &nbsp;&nbsp;&nbsp;&nbsp; - satan.txt  
+&nbsp;&nbsp;&nbsp;&nbsp; - bateau.txt  
+&nbsp;&nbsp;&nbsp;&nbsp; - bipolaire.txt  
 
 ## A venir  
 
