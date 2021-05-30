@@ -128,6 +128,8 @@ void copieMatrice(int** p_mat1, int** p_mat2, int lignes, int colonnes) {   //la
     }
 }
 
+/* Check */
+/* Procédure permettant de libérer l'espace mémoire */
 void liberer(int** p_mat, int lignes) { //liberation de mémoire
     for(int i=0; i < lignes; i++) {
         free(p_mat[i]);
@@ -135,4 +137,3 @@ void liberer(int** p_mat, int lignes) { //liberation de mémoire
     free(p_mat);
     p_mat = NULL;
 }
-
