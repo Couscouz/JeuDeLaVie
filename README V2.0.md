@@ -25,6 +25,6 @@ Les différents touches utiles pour utiliser l'application:
 * **Barre espace**: Mettre en pause la simulation
 * **Échap**: Retour au menu principal
 
-###Autres informations
+### Autres informations
 
 Dans le menu, les paramètres sélectionnés sont écrit en rouge (motif, vitesse et si c'est torique ou pas).
