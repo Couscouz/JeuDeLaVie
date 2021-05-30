@@ -54,10 +54,11 @@ int main() {
         //on remplace la matrice temporaire dans la principale
         copieMatrice(p_temp, p_matrice, lignes, colonnes);
 
-        //on rafraichie le terminal 
+        //réglage de la vitesse de rafraîchissement du terminal 
         usleep(50000);
     }
     /*---------------------------------------------------------------------------------*/
+    
     liberer(p_matrice, lignes);
     liberer(p_temp, lignes);
 
