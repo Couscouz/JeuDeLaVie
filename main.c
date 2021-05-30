@@ -18,6 +18,9 @@ int main() {
 
     p_matrice = allouer(lignes, colonnes); //allocation mémoire lignes/colonnes
     p_temp = allouer(lignes, colonnes);
+    
+    initialiser(p_matrice, lignes, colonnes);
+    initialiser(p_temp, lignes, colonnes);
 
     /*Boucle de lecture du motif de départ dans le fichier texte*/
     for(int i=0; i < lignes; i++){        
@@ -55,6 +58,8 @@ int main() {
         usleep(50000);
     }
     /*---------------------------------------------------------------------------------*/
+    liberer(p_matrice, lignes);
+    liberer(p_temp, lignes);
 
     return 0;
 }
