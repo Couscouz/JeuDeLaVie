@@ -23,8 +23,8 @@ int main() {
     initialiser(p_temp, lignes, colonnes);
 
     /*Boucle de lecture du motif de départ dans le fichier texte*/
-    for(int i=0; i < lignes; i++){        
-        for( int j=0;j<colonnes;j++){
+    for(int i=0; i < lignes; i++) {        
+        for( int j=0; j < colonnes; j++) {
             scanf("%d",&p_matrice[i][j]);
         }
     }  
@@ -34,14 +34,14 @@ int main() {
 
 
     /*---------------------------------Boucle Principale-------------------------------*/
-    for(int i=0; i<tours; i++){
+    for(int i=0; i < tours; i++) {
         system("clear"); //efface ce qu'il y avait à l'écran
 
         /*Affichage de la matrice */
         afficher(p_matrice, lignes, colonnes);
 
-        for(int m=0;m<lignes;m++){
-            for(int n=0;n<colonnes;n++){
+        for(int m=0; m < lignes; m++) {
+            for(int n=0; n < colonnes; n++) {
                 //on calcule et renvoie le nombre de voisins d'une case
                 temp = voisins(p_matrice, m, n, lignes, colonnes, torique);
                
